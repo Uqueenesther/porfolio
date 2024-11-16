@@ -5,8 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "gh-pages-build": "parcel build --public-url ."
   },
   "repository": {
@@ -21,21 +21,21 @@
   },
   "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.7.0",
-    "parcel-bundler": "^1.12.5",
+    "@parcel/transformer-sass": "^2.13.0",
+    "parcel": "^2.13.0",
     "prettier": "^2.7.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.3.3",
     "chalk": "^5.2.0",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
+    "rfs": "^10.0.0",
+    "sass": "^1.81.0",
     "vanilla-tilt": "^1.7.3"
   },
   "engines": {
-  "node": "18.x"
-}
-
+    "node": "18.x"
+  }
 }
